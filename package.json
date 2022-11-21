@@ -1,0 +1,29 @@
+{
+	"name": "design-patterns-diyorbek",
+	"version": "1.0.0",
+	"description": "Design patterns",
+	"main": "build/index.js",
+	"scripts": {
+		"start": "node_modules/typescript/bin/tsc && node build/index.js",
+		"start:factory-method": "node_modules/typescript/bin/tsc && node build/1.Factory-method/index.js",
+		"start:strategy": "node_modules/typescript/bin/tsc && node build/2.Strategy/index.js",
+		"start:singleton": "node_modules/typescript/bin/tsc && node build/2.Singleton/index.js",
+		"start:build": "node_modules/typescript/bin/tsc"
+	},
+	"keywords": [
+		"Design Patterns",
+		"Factory-method Pattern",
+		"Singleton Pattern"
+	],
+	"author": {
+		"email": "diyorbek.ru@payme.uz",
+		"name": "Diyorbek Rustamjonov",
+		"url": "https://xattab.uz"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^18.11.0",
+		"cli-table3": "^0.6.3",
+		"typescript": "^4.8.4"
+	}
+}
